@@ -4,6 +4,8 @@ Important new feature (honest)
 
 and another feature
 
+demo of release
+
 GitHub Action to run Kitchen Terraform. Release versions match the Terraform version in use.
 
 After cloning this repo, please run:  
