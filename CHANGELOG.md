@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/dan-hill2802/github-action-kitchen-terraform/compare/v1.1.0...v1.2.0) (2022-09-06)
+
+
+### Features
+
+* adding another README feature to test release-please ([99c7ef8](https://github.com/dan-hill2802/github-action-kitchen-terraform/commit/99c7ef8237314bb6873b86d6c025d3f08b31d547))
+* adding new README feature to test release-please ([67269e1](https://github.com/dan-hill2802/github-action-kitchen-terraform/commit/67269e182ef164092786492cd5214bd75ad0617f))
+
 ## [1.1.0](https://github.com/dan-hill2802/github-action-kitchen-terraform/compare/v1.0.0...v1.1.0) (2022-09-06)
 
 
