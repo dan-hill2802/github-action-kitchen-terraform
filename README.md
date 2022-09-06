@@ -1,5 +1,7 @@
 # github-action-kitchen-terraform
 
+Important new feature (honest)
+
 GitHub Action to run Kitchen Terraform. Release versions match the Terraform version in use.
 
 After cloning this repo, please run:  
