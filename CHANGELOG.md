@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/dan-hill2802/github-action-kitchen-terraform/compare/v1.2.0...v1.3.0) (2022-09-06)
+
+
+### Features
+
+* add release-please workflow ([0630bd8](https://github.com/dan-hill2802/github-action-kitchen-terraform/commit/0630bd8ef0f027096b6faa577e433da2142f27b5))
+
 ## [1.2.0](https://github.com/dan-hill2802/github-action-kitchen-terraform/compare/v1.1.0...v1.2.0) (2022-09-06)
 
 
