@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.0](https://github.com/dan-hill2802/github-action-kitchen-terraform/compare/v1.3.0...v1.4.0) (2022-09-06)
+
+
+### Features
+
+* demo release process ([e586c4e](https://github.com/dan-hill2802/github-action-kitchen-terraform/commit/e586c4e59ed59f104e463a6b08cdf17a872d53e6))
+* demo release process 2 ([1f21ef5](https://github.com/dan-hill2802/github-action-kitchen-terraform/commit/1f21ef5a3dfe683947ed6d38a9e0f54c8a6a1d22))
+
 ## [1.3.0](https://github.com/dan-hill2802/github-action-kitchen-terraform/compare/v1.2.0...v1.3.0) (2022-09-06)
 
 
