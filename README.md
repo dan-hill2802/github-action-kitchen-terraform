@@ -4,7 +4,7 @@ Important new feature (honest)
 
 and another feature
 
-demo of release
+demo of release, part 2
 
 GitHub Action to run Kitchen Terraform. Release versions match the Terraform version in use.
 
