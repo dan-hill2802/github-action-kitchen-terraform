@@ -18,7 +18,7 @@ runs:
   using: "docker"
   image: "docker://quay.io/dwp/kitchen-terraform:0.14.7"
   env:
-    - ${{ inputs.terraform-version}}
+    TFENV_TERRAFORM_VERSION: ${{ inputs.terraform-version}}
   args:
     - ${{ inputs.kitchen-command }}
     - ${{ inputs.aws-account-number }}
