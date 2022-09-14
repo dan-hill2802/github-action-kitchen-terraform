@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/dan-hill2802/github-action-kitchen-terraform/compare/v3.0.0...v3.1.0) (2022-09-14)
+
+
+### Features
+
+* release flow ([7a7f2d7](https://github.com/dan-hill2802/github-action-kitchen-terraform/commit/7a7f2d777da7a0e7bd58f78198be140c5ab2aed8))
+
 ## [3.0.0](https://github.com/dan-hill2802/github-action-kitchen-terraform/compare/v2.0.0...v3.0.0) (2022-09-14)
 
 
