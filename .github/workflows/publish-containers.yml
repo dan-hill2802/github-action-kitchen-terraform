@@ -1,8 +1,4 @@
-on:
-  release:
-    types:
-      - published
-      - released
+on: release
 name: publish-containers
 jobs:
   publish-containers:
