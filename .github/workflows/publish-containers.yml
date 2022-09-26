@@ -1,4 +1,9 @@
-on: release
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.release-please-manifest.json'
 name: publish-containers
 jobs:
   publish-containers:
