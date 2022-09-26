@@ -13,6 +13,17 @@ jobs:
       - name: Code checkout
         uses: actions/checkout@v2
 
+      - name: Get release number
+        id: get-release
+        run: |
+          RELEASE=$(sed 's/"."/"key"/g' .release-please-manifest.json | jq -r .key)
+          echo ${RELEASE}
+          echo ::set-output name=release-number::${RELEASE}
+
+      - name: Show version
+        run: |
+          echo "Version: ${{ steps.get-release.outputs.release-number }}"
+
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v2
         with:
