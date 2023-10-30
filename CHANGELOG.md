@@ -1,5 +1,30 @@
 # Changelog
 
+## [3.0.0](https://github.com/dan-hill2802/github-action-kitchen-terraform/compare/v2.1.0...v3.0.0) (2023-10-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* use tfenv to manage Terraform versions
+* set Terraform version using Action input ([#29](https://github.com/dan-hill2802/github-action-kitchen-terraform/issues/29))
+
+### Features
+
+* add `jq` to Docker image ([541712f](https://github.com/dan-hill2802/github-action-kitchen-terraform/commit/541712fe503880fd17fd8048418a12b61965c1ed))
+* add workflow to generate releases ([3bc4be2](https://github.com/dan-hill2802/github-action-kitchen-terraform/commit/3bc4be2debc07068b783379ca7eb15c7019642f2))
+* allow trusting additional certificates at run time ([ad3329e](https://github.com/dan-hill2802/github-action-kitchen-terraform/commit/ad3329e533d17de8cd91dec032d8b21f9840acce))
+* publish containers to GitHub container registry ([efb0199](https://github.com/dan-hill2802/github-action-kitchen-terraform/commit/efb0199ab445d1d6e443d9896b4e22c75c932858))
+* set Terraform version using Action input ([#29](https://github.com/dan-hill2802/github-action-kitchen-terraform/issues/29)) ([e916d29](https://github.com/dan-hill2802/github-action-kitchen-terraform/commit/e916d2973301924f29d8a805a42661c2cbe5dadd))
+* use tfenv to manage Terraform versions ([6763f54](https://github.com/dan-hill2802/github-action-kitchen-terraform/commit/6763f546d564c4cac6420974b779033594e86b59))
+
+
+### Bug Fixes
+
+* build containers on release ([dcecb75](https://github.com/dan-hill2802/github-action-kitchen-terraform/commit/dcecb7542a7fb1215b9982aadd03b4e026c93624))
+* fix "command not found" error when passing an action and suite ([cc359c4](https://github.com/dan-hill2802/github-action-kitchen-terraform/commit/cc359c4a1b1e5096f642794870045f12480e80b7))
+* update terraform version for container ([#40](https://github.com/dan-hill2802/github-action-kitchen-terraform/issues/40)) ([1d30681](https://github.com/dan-hill2802/github-action-kitchen-terraform/commit/1d3068146c2e9bb0e7b9a101af926e6b4f46e6f6))
+* use hardcoded container registry URI ([1507d85](https://github.com/dan-hill2802/github-action-kitchen-terraform/commit/1507d859d46bee151cbf64d0e0151be589af820f))
+
 ## [2.1.0](https://github.com/dwp/github-action-kitchen-terraform/compare/v2.0.1...v2.1.0) (2023-08-16)
 
 
